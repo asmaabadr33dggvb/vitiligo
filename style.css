@@ -1,0 +1,343 @@
+ body{ 
+    margin: 0%;
+    /* height: 2000px; */
+    /* height:100%; */
+}
+
+.headr{
+    color: aqua;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background-color: rgba(150, 146, 141, 0.753);
+    z-index: 10;
+    /* background-image: url(../images/image2.jpg); */
+    /* background-color: rgba(0,0,0, 0.7); */
+}
+li{
+    float: left;
+    list-style: none;
+    margin: 20px 20px;
+    transition: .5s;
+}
+.list{
+    /* display: inline; */
+    float: right;
+}
+.logo{
+    margin:0px 120px;
+    /* padding-bottom: 15px; */
+    /* padding-top: 10px; */
+    /* font-size: 40px; */
+    /* float: left; */
+}
+h1{
+    display: inline-block;
+    /* font-size: 40px; */
+    /* margin:right 0px 120px; */
+    /* padding-left: 120px; */
+    /* margin-bottom: 70px; */
+    /* padding-top: 40px; */
+    /* padding-bottom: 40px;  */
+    margin: right;
+}
+ span{ 
+    color: red;
+    display: inline-block;
+}
+ul{
+    margin-right: 40px;
+    /* float: right; */
+ } 
+ a {
+     color: red;
+     font-size: 22px;
+     margin-top: 10px;
+ }
+ /* /////////////////////////////////////////////////////overe */
+ .content{ 
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/image2.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+ .content-home{ 
+    position: absolute;
+     top: 50%; 
+     left: 50%;
+     transform: translate(-50%  ,  -50% );
+     text-align: center;
+}
+.content-home   {
+    color : #fff ;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+/* .B1 { 
+    margin-top: 20px ;
+    margin-bottom: 18px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+ } */
+.content-home   {
+    width: 150px;
+    padding: 15px 0px ;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+/* .C1-start { 
+    margin-right: 10px;
+   
+
+ } */
+/* .C1:hover { */
+    /* opacity: .5; */
+/* } */
+/* .C1-more { 
+    background-color: blue;
+    color: #fff; 
+ } */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0 ;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+.clean{
+    height: 160px;
+    width: 100%;
+    /* background-color: black; */
+}
+/* ///////////////////////////////////////////////////////////// */
+/* .one img{ */
+    /* width: 200px; */
+    /* height: 300px; */
+    /* background-color: red; */
+    /* right: 50%; */
+    /* transform: t/ranslate(0,50%); */
+    /* margin: auto; */
+    
+/* } */
+.two p{
+    width: 500px;
+    height: 400px;
+    /* background-color: aqua; */
+    float: left;
+    transform: translate(50%,0%);
+    /* margin: right 50px; */
+}
+p{
+    /* text-align: center; */
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.one img{
+    width: 300px;
+    height: 400px;
+    float: left;
+    /* margin-top: 15px; */
+    /* margin:right 50px; */
+    transform: translate(400px,5%);
+
+}
+/* //////////////////////////// */
+.no{
+    width: 100%;
+    height: 300px;
+    /* background-color: aquamarine; */
+}
+/* //////////////////////////// */
+.three img{
+    width: 300px;
+    height: 300px;
+    /* margin: top 50; */
+    float: left;
+    margin-left: 140px;
+    /* padding: right 90px; */
+
+    /* transform: translate(-200px,440px); */
+}
+.four img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 70px;
+    /* padding: left 60px; */
+    /* float: right; */
+    /* transform: translate(-600px,140px); */
+}
+.five img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    /* margin: left 80px; */
+     transform: translate(70px,0px);
+    
+    /* padding: left 70px; */
+}
+ /* img{ */
+    /* margin: auto; */
+    /* display: /inline; */
+    /* margin: left 70px; */
+/* } */
+/* ////////////////////////////////// */
+.spa1{
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+}
+/* /////////////////////////////////// */
+.text{
+    width: 300px;
+    height: 600px;
+    /* background-color: aquamarine; */
+    /* margin: left 120px; */
+    padding-left: 120px;
+     float:left ;
+     /* font-size: 20px; */
+}
+.six{
+    width: 300px;
+    height: 300px;
+    float: left;
+    /* margin: left 70px; */
+    padding-left: 200px;
+}
+.kk {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.nn{
+    /* list-style-type: *; */
+    font-size: 15px;
+}
+/* ////////////////////////////// */
+.oo{
+    width: 100%;
+    height: 200px;
+    /* background-color: blueviolet; */
+}
+/* ///////////////////////// */
+.medican{
+    width: 700px;
+    height: 500px;
+    /* background-color: bisque; */
+    padding: 95px;
+    float: left;
+}
+.meda{
+    width: 300px;
+    height: 600px;
+    /* background-color:red; */
+    float: left;
+    /* padding:top 60px; */
+    transform: translate(-0px,100px);
+    /* position: right 60px; */
+
+}
+.laa{
+    width: 400px;
+    height: 300px;
+    /* background-color: aquamarine; */
+    float: left;
+    padding-left: 180px;
+    /* transform: translate(-50%,50%); */
+    
+}
+.clas{
+    width: 100%;
+    height: 200px;
+    /* background-color: burlywood; */
+}
+.p3{
+    width: 400px; 
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    padding-left: 180px;
+}
+.cc{
+    font-size: 22px;
+}
+.bb{
+    width: 100%;
+    height: 100px;
+    /* background-color: cadetblue; */
+}
+.div1 { 
+    width: 300px;
+    height: 650px;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin-right: 90px;
+    margin-left: 120px;
+    
+    
+}
+.div2{ 
+    width: 300px;
+    height: 650px;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin-right: 90px;
+    /* margin-left: 90px; */
+    
+    
+ } 
+.div3{
+    width: 300px;
+    height: 650px;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}   
+.div1:hover{
+    background-color: gray;
+}
+.div2:hover{
+    background-color: gray;
+}
+.div3:hover{
+    background-color: gray;
+}
+.ww{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+}
+.tt{
+    width: 600px;
+    height: 250px;
+    float: left;
+    margin-left: 120px;
+    /* background-color: blueviolet; */
+}
+.rr{
+    width: 100px;
+    height: 200px;
+    float: left;
+    margin-right: 180px;
+    /* background-color: aquamarine; */
+}
+.uu{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+}
+footer{
+    text-align: center;
+    background: #212121;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
